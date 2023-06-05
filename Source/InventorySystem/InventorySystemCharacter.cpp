@@ -51,7 +51,8 @@ AInventorySystemCharacter::AInventorySystemCharacter()
 
 
 	Inventory = CreateDefaultSubobject<UInventoryComponent>("Inventory");
-	Health = 100.0f;
+	Health = 60.f;
+	MaxHealth = 100.f;
 
 }
 

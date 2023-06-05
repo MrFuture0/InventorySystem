@@ -9,7 +9,7 @@ void UFoodItem::Use(AInventorySystemCharacter* Character)
 {
     if (Character)
     {
-        Character->Health += HealthToHeal;
+        Character->Health -= HealthToHeal;
         
         GEngine->AddOnScreenDebugMessage(0, 1.f, FColor::Green, FString(TEXT("Bread used added 20 health")), true);
         if (OwningInventory)

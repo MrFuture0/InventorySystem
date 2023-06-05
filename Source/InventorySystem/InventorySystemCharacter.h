@@ -36,6 +36,10 @@ public:
 	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = "Health")
 		float Health;
 
+	UPROPERTY(EditAnyWhere, BlueprintReadOnly, Category = "Health")
+		float MaxHealth;
+
+
 	UFUNCTION(BlueprintCallable, Category = "Items")
 		void UseItem(class UItem* Item);
 

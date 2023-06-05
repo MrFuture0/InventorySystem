@@ -52,6 +52,13 @@ public:
     UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Item", meta = (ClampMin = 0.0))
         int VestStackCount;
 
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Item", meta = (ClampMin = 0.0))
+        float HelmetHealth;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Item", meta = (ClampMin = 0.0))
+        int HelmetStackCount;
+
     UPROPERTY()
         UInventoryComponent* OwningInventory;
 
